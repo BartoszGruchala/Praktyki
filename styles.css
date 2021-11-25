@@ -1,0 +1,77 @@
+body {
+	background-color: #000000;
+  font-family: 'Futura', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+p {
+  font-size: 19px;
+}
+
+h1,
+p {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+#label1 {
+	margin: 10px;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#div1 {
+	margin: auto;
+	height: 75%;
+	width: 40%;
+}
+
+form {
+  background: #232324;
+  padding: 40px 20px;
+  border-radius: 4px;
+}
+
+.form1 {
+  display: block;
+  width: 75%;
+  height: 42px;
+  padding: 6px 12px;
+  color: #808080;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 75%;
+  resize: vertical;
+}
+
+.input1 {
+  min-height: 130px;
+  width: 75%
+}
+
+.przycisk {
+	text-align: center;
+  width: 75%;
+  padding: 12px;
+  background: #0a7014;
+	margin: 20px;
+  color: white;
+  cursor: pointer;
+}

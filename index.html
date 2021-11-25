@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='styles.css' />
+</head>
+<body>
+    <script src='app.js'></script>
+    <header>
+		<center>
+    <h1 id="title">Tytuł</h1>
+		<p id="description">
+      Tekst
+    </p>
+		</center
+  </header>
+		<div id="div1">
+  <form id="survey-form">
+      <label id="name-label" for="name">Imię</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form1"
+        placeholder="Podaj swoję imię"
+        required
+      />
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form1"
+        placeholder="Podaj swój Email"
+        required
+      />
+      <label id="number-label" for="number"
+        >Wiek</label
+      >
+      <input
+        type="number"
+        name="wiek"
+        id="number"
+        min="1"
+        max="100"
+        class="form1"
+        placeholder="Wiek"
+      />
+		<p>Wybierz opcję</p>
+		<div>
+      <label>
+        <input
+          name="imie1"
+          value="1"
+          type="radio"
+          class="input-radio"
+          checked
+        />1</label
+      >
+		 <label>
+        <input
+          name="imie1"
+          value="2"
+          type="radio"
+          class="input-radio"
+        />2</label
+      >
+
+      <label
+        ><input
+          name="imie1"
+          value="3"
+          type="radio"
+          class="input-radio"
+        />3</label
+      >
+		</div>
+		<p>
+       Wybierz opcje
+      </p>
+      <select id="dropdown" class="form1" required>
+        <option disabled selected value>Wybierz opcje</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+		<p>
+        Wybierz opcję
+        <span>(Zaznacz wszystkie poprawne)</span>
+      </p>
+
+    <label>
+				<input
+          type="checkbox" value="1"/>1
+		</label>
+      <label>
+        <input
+          type="checkbox" value="2"/>2
+		</label>
+    <label>
+			<input
+          type="checkbox" value="3"/>3
+		</label>
+  	    <p>Komentarz</p>
+				<textarea
+     	   id="comments"
+      	  class="input1"
+      	  name="comment"
+       	 placeholder="Podaj swój komentarz tutaj..."
+     	 ></textarea>
+     	 <button type="submit" id="submit" class="przycisk">
+       	 Prześlij
+      	</button>
+ 		 </form>
+		</div>
+</body>
+</html>
